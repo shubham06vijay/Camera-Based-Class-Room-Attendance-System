@@ -10,8 +10,6 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-	printf("Hello Mani\n");
-
 	Mat quad0 = imread("im3.png", CV_LOAD_IMAGE_COLOR);
 	//resize(quad, quad, Size(368, 655));
 	
